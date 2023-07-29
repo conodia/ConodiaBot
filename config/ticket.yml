@@ -1,0 +1,12 @@
+logs_channel: "980530587037229086"
+close_categorie: "980529906628821062"
+
+types:
+  - id: "test"
+    name: "Name Test"
+    emoji: "💠"
+    description: "la desc du test"
+    categorie: "980529906628821062"
+    welcome_message: "Bienvenue sur votre ticket.\n\nUn membre du staff va vous répondre prochainement." # \n pour sauter une ligne
+    roles:
+      - "907647524695851058"

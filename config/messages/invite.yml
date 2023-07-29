@@ -1,0 +1,18 @@
+show:
+  another:
+    title: ""
+    description: "{user} a {actual} invitation(s) ({total} total, {leaves} partie(s), {bonus} bonus)"
+  self:
+    title: ""
+    description: "Vous avez {actual} invitation(s) ({total} total, {leaves} partie(s), {bonus} bonus)"
+list:
+  title: "Liste des personnes que {user} a invité:"
+  description: "{list}"
+not_found:
+  title: "Erreur"
+  description: "Nous avons rien trouvé pour cet utilisateur."
+leaderboard:
+  title: "Classement"
+  description: "Le classement: \n\n{leaderboard}\n\nBon jeu sur nanai"
+  footer: "Vous êtes à la page {page}/{max_page}"
+  format: "{index}. {tag} avec {actual} invitations ({total} total, {leaves} leaves, {bonus} bonus)"

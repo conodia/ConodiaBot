@@ -1,0 +1,37 @@
+# Variables:
+#
+#    {captcha}, {guild} (le nom du serveur), {link} (pour le lien de vérification)
+#
+
+setup:
+  title: "Choisissez comment vous voulez vous vérifier."
+  description: "Cliquer sur lien ou sur captcha pour vous vérifier !"
+already_verify:
+  title: "Vous êtes déjà vérifié."
+  description: ""
+captcha:
+  modal:
+    label: "Votre captcha {captcha}"
+  wrong:
+    title: "Captcha invalid !"
+    description: "Vous pouvez recommencer."
+  success:
+    title: "Captcha validé !"
+    description: "Vous avez accès à tout les channels."
+bot:
+  kick:
+    title: "Êtes vous un robot ?"
+    description: "Vous avez été détecté comme robot sur {guild}, vous pouvez encore rejoindre ce serveur, une dernière fois."
+  ban:
+    title: "Êtes vous un robot ?"
+    description: "Vous avez été détecté comme robot sur {guild}, vous ne pouvez plus rejoindre ce serveur."
+link:
+  title: "Voici votre lien de vérification !"
+  description: "Pour vous vérifier, vous devez cliquer sur le lien ci-dessous !"
+  button: "Cliquez ici"
+  success:
+    title: "Vous êtes vérifié sur {guild} !"
+    description: "Vous avez accès à tout les channels."
+send_user:
+  title: "Bienvenue sur {guild}"
+  description: "Pour avoir accès à tout les channels, vous devez vous vérifier !"

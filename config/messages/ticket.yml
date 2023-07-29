@@ -1,0 +1,32 @@
+member:
+  add:
+    title: "Succès !"
+    description: "J'ai bien ajouté {user} au ticket."
+  remove:
+    title: "Succès !"
+    description: "J'ai bien retiré {user} du ticket."
+
+not_ticket: "Ce n'est pas un ticket !"
+already_open: "Vous avez déjà un ticket ouvert !"
+
+setup:
+  title: "Tickets"
+  description: "Vous pouvez ouvrir un ticket, voici les types disponnibles: \n\n{types}"
+ticket:
+  open:
+    title: "Ticket ouvert"
+    description: "Votre ticket a bien été ouvert {channel} !"
+  channel_send_title: "Ticket ouvert !" # sert a mettre le titre pour chaque fois qu'un mec ouvre un ticket, ça envoie un embed avec le welcome_message du ticket.yml (config) !
+close:
+  verification:
+    title: "Vérification"
+    description: "Voulez-vous vraiment fermer ce ticket ?"
+  cancel:
+    title: "Annulation"
+    description: "Le ticket n'a pas été fermé."
+  close:
+    title: "Fermeture"
+    description: "Le ticket a bien été fermé."
+claim:
+  title: "Ticket claim"
+  description: "Ce ticket est géré par {user} !"

@@ -1,0 +1,10 @@
+[22h 10:26] POST /auth : 200
+[22h 10:28] GET /orders : 200
+[22h 10:29] GET /banques : 200
+[22h 10:29] GET /users : 200
+[22h 10:29] GET /tickets : 200
+[22h 12:40] POST /auth : 200
+[22h 12:43] GET /orders : 200
+[22h 12:43] GET /banques : 200
+[22h 12:43] GET /users : 200
+[22h 12:43] GET /tickets : 200

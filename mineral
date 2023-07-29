@@ -1,0 +1,7 @@
+import 'package:mineral/cli.dart';
+
+Future<void> main (List<String> arguments) async {
+  final cli = CommandLineInterface();
+
+  await cli.handle(arguments);
+}

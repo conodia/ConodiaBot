@@ -1,0 +1,29 @@
+# Variables:
+#
+#    {giveaway} = le titre du giveaway, {description}, {lot}, {channel}, {message}, {duration} (le temps restant), {id} (l'id du giveaway), {winners.number} (le nombre de gagnants maximunm)
+#
+#    UNIQUEMENT pour le `victory` et `end`:
+#
+#    {winners}
+#
+
+create:
+  title: ":tada: Giveaway :tada:"
+  description: "Un nouveau giveaway est lancé !\n\nLot: {lot},\nTemps restant: {duration}"
+not_exist:
+  title: "Ce giveaway n'existe pas !"
+  description: "Ce giveaway n'existe pas !"
+victory:
+  title: "Gg !"
+  description: "Félicitation à {winners} qui ont gagné ce giveaway !"
+victory_send_user:
+  title: "Bravo !"
+  description: "Tu as gagné un giveaway sur {guild}, dépêche toi de le récupérer !\n\nId du giveaway: {id}"
+no_winners:
+  title: "Il n'y a pas de gagnants !"
+  description: "Il n'y a pas de gagnants pour ce giveaway !"
+end:
+  title: ":tada: Giveaway terminé :tada:"
+  description: "Le giveaway est terminé !\n\nLot: {lot},\nGagnants: {winners}"
+buttons:
+  go_to_giveaway: "/\ Voir le giveaway /\ "

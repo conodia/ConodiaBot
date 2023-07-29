@@ -1,0 +1,32 @@
+server_id: "834522966732701706"
+activity: "Je suis en dev par Panda_Guerrier !"
+antibot: false # si l'anti bot est actif ou non
+mc_ip: "mc.hypixel.net" # l'ip du serveur minecraft
+enable_leave: true # si le message de leave est activé ou non
+
+status:
+  need: ".gg/lydazia"
+  role: "907647524695851058"
+
+suggestion:
+  emoji_yes: "1082669137328869446" # faut mettre un id d'un emoji ici
+  emoji_no: "1082669128629882970" # faut mettre un id d'un emoji ici
+
+roles:
+    join_role: "907647534019797023"
+    admin_role: "907647524695851058"
+    verified_role: "907647534019797023"
+    select_roles:
+        - id: "role id"
+          name: "role name"
+          emoji: "🫔"
+        - id: "role id2"
+          name: "role name2"
+          emoji: "🗑"
+channels:
+  welcome: "1035319336065318983"
+  leave: "1035319336065318983"
+  suggestion: "980529944989937677"
+  stats: "980529975776116788"
+  mc_stats: "980840413986455595"
+  connected_stats: "1106278561301676033"

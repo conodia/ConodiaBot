@@ -1,0 +1,16 @@
+[12h 14:22] POST /auth : 200
+[12h 14:25] GET /tickets : 200
+[18h 12:45] POST /auth : 200
+[18h 12:48] GET /tickets : 200
+[19h 0:56] GET /link/islink/760898686745706618 : 200
+[19h 0:56] POST /link/create : 200
+[19h 41:49] POST /auth : 200
+[19h 41:51] GET /tickets : 200
+[19h 43:14] POST /auth : 200
+[19h 43:17] GET /tickets : 200
+[19h 56:27] POST /auth : 200
+[19h 56:30] GET /tickets : 200
+[19h 56:54] POST /auth : 200
+[19h 56:57] GET /tickets : 200
+[20h 6:27] POST /auth : 200
+[20h 6:29] GET /tickets : 200

@@ -1,0 +1,67 @@
+#
+#    PlaceHolders:
+#
+#    global: {guild}, {user}
+#    modération: {reason}, {moderator}, {duration}
+#    welcome / bye: {user}, {members}. Invitations:  {inviter}, {total}, {actual}, {leaves}, {bonus}
+#
+
+moderation:
+  ban:
+    user:
+      title: "Vous avez été banni de {guild}"
+      description: "Vous avez été banni de {guild} pour {reason}, par {moderator}"
+    reply:
+      title: "{user} a été banni"
+      description: "{user} a été banni pour {reason}, par {moderator}"
+  kick:
+    user:
+      title: "Vous avez été expulsé de {guild}"
+      description: "Vous avez été expulsé de {guild} pour {reason}, par {moderator}"
+    reply:
+      title: "{user} a été expulsé"
+      description: "{user} a été expulsé pour {reason}, par {moderator}"
+  mute:
+    user:
+      title: "Vous avez été mute de {guild}"
+      description: "Vous avez été mute de {guild} pour {reason}, par {moderator}, durant {duration}"
+    reply:
+      title: "{user} a été mute"
+      description: "{user} a été mute pour {reason}, par {moderator}, durant {duration}"
+  unmute:
+    user:
+      title: "Vous avez été unmute de {guild}"
+      description: "Vous avez été unmute de {guild} par {moderator}"
+    reply:
+      title: "{user} a été unmute"
+      description: "{user} a été unmute par {moderator}"
+    fail:
+      title: "{user} n'est pas mute"
+      description: "{user} n'est pas mute"
+setup:
+  roles:
+    title: "rôles"
+    description: "Vous pouvez choisir vos rôles dans ce salon"
+  rules:
+    title: "Règlement"
+    description: "Veuillez être réspectueux et respecter le règlement"
+welcome:
+  normal:
+    title: "Bienvenue sur {guild}"
+    description: "{user} tu as été invité par {inviter}, qui comptabilise désormais {actual} invitations !"
+    footer: "Nous sommes désormais {members} membres !"
+  vanity:
+    title: "Bienvenue sur {guild}"
+    description: "{user} tu as été invité en utilisant la vanity url !"
+    footer: "Nous sommes désormais {members} membres !"
+leave:
+  title: "Aurevoir {user}"
+  description: "Il a été invité par {inviter}, qui a désormais {actual} invitations."
+  footer: "Nous sommes désormais {members} membres !"
+suggestion:
+  title: "Suggestion de {user}"
+  description: "{suggestion}"
+  footer: "Écrivez une suggestion dans ce salon pour la faire apparaître ici !"
+channels_name:
+  stats_global: "📊 [Membres] {members_total}"
+  stats_online: "📊 [Co] {members_online}"

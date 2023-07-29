@@ -1,0 +1,3 @@
+[11h 39:48] POST /auth : 200
+[11h 39:51] GET /orders : 200
+[11h 39:51] GET /tickets : 200
