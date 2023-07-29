@@ -1,4 +1,5 @@
 import 'package:mineral/core.dart';
+import 'package:mineral/core/services.dart';
 import 'package:mineral/src/internal/services/intent_service.dart';
 
 import 'events/ready.dart';
@@ -17,22 +18,19 @@ void main() async  {
    */
   MessageService().init();
 
-  Kernel kernel = Kernel(intents: IntentService(all: true))
-    ..commands.register([])
-    ..events.register([
+  Kernel kernel = Kernel(
+      intents: IntentService(all: true),
+      packages: PackageService([
+        TicketModule(),
+        InvitationsModule(),
+        GiveawayModule(),
+        VerificationModule(),
+        GlobalModule(),
+       ]),
+    events: EventService([
       Ready(),
       ReadyWebsocket(),
-    ])
-    ..packages.register([
-      TicketModule(),
-      InvitationsModule(),
-      GiveawayModule(),
-      VerificationModule(),
-      GlobalModule(),
-    ])
-    ..contextMenus.register([])
-    ..states.register([]);
+    ]),
+  );
   await kernel.init();
 }
-
-

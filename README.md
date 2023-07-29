@@ -1,2 +1,0 @@
-# axium-bot
-# ConodiaBot
