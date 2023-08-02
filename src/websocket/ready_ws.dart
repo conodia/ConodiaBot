@@ -3,6 +3,7 @@ import 'package:mineral/core/extras.dart';
 import 'package:mineral/framework.dart';
 
 import '../managers/api/api_manager.dart';
+import '../modules/verification/websocket_modules/staff_connexion.dart';
 import '../modules/verification/websocket_modules/verify_user.dart';
 import '../websocket/modules/auth.dart';
 import '../websocket/modules/heartbeat.dart';
@@ -25,6 +26,7 @@ class ReadyWebsocket extends MineralEvent<ReadyEvent> with  Console {
       AuthModule(),
       HeartModule(),
       VerifyUserModule(),
+      StaffConnexionModule(),
     ]);
 
     await websocket.init(payload);

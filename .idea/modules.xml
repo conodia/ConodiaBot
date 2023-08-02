@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../ConodiaAPI/.idea/ConodiaAPI.iml" filepath="$PROJECT_DIR$/../ConodiaAPI/.idea/ConodiaAPI.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/ConodiaBot.iml" filepath="$PROJECT_DIR$/.idea/ConodiaBot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mineral-core/.idea/mineral-core.iml" filepath="$PROJECT_DIR$/../mineral-core/.idea/mineral-core.iml" />
     </modules>
   </component>
 </project>

@@ -15,8 +15,6 @@ import '../utils/ticket_utils.dart';
 
 class ButtonInteraction extends MineralEvent<ButtonCreateEvent> with Console, State, Container {
   Future<void> handle(event) async {
-    if (event.channel is! PartialTextChannel) return;
-
     if (event.interaction.customId.equals("beforeClose")) {
       final messages = container.use<MessageEntity>().ticket;
 

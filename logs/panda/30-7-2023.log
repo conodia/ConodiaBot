@@ -1,0 +1,105 @@
+[15h 46:18] POST /auth (200)
+[15h 46:21] GET /tickets : 200
+[15h 46:21] GET /invites : 200
+[15h 46:21] GET /giveaways/ : 200
+[15h 51:30] POST /auth (200)
+[15h 51:33] GET /tickets : 200
+[15h 51:33] GET /invites : 200
+[15h 51:33] GET /giveaways/ : 200
+[15h 53:10] GET /link/islink/670642326661496866 : 200
+[15h 53:10] POST /link/create (200)
+[16h 4:11] POST /auth (200)
+[16h 4:14] GET /tickets : 200
+[16h 4:14] GET /invites : 200
+[16h 4:14] GET /giveaways/ : 200
+[16h 4:15] GET /link/islink/670642326661496866 : 200
+[16h 4:15] POST /link/create (200)
+[16h 10:10] POST /auth (200)
+[16h 10:13] GET /tickets : 200
+[16h 10:13] GET /giveaways/ : 200
+[16h 10:13] GET /invites : 200
+[16h 10:47] POST /auth (200)
+[16h 10:50] GET /tickets : 200
+[16h 10:50] GET /invites : 200
+[16h 10:50] GET /giveaways/ : 200
+[16h 12:53] POST /auth (200)
+[16h 12:56] GET /invites : 200
+[16h 12:56] GET /tickets : 200
+[16h 12:56] GET /giveaways/ : 200
+[16h 13:35] POST /auth (200)
+[16h 13:38] GET /tickets : 200
+[16h 13:38] GET /invites : 200
+[16h 13:38] GET /giveaways/ : 200
+[16h 15:21] POST /auth (200)
+[16h 15:24] GET /tickets : 200
+[16h 15:24] GET /invites : 200
+[16h 15:24] GET /giveaways/ : 200
+[16h 15:26] DESTROY staffconnexion/670642326661496866 : 404
+[16h 16:19] POST /auth (200)
+[16h 16:22] GET /tickets : 200
+[16h 16:22] GET /invites : 200
+[16h 16:22] GET /giveaways/ : 200
+[16h 16:25] DESTROY /staffconnexion/670642326661496866 : 200
+[16h 24:22] DESTROY /staffconnexion/670642326661496866 : 200
+[17h 5:13] POST /auth (200)
+[17h 5:16] GET /tickets : 200
+[17h 5:16] GET /invites : 200
+[17h 5:16] GET /giveaways/ : 200
+[17h 7:15] DESTROY /staffconnexion/670642326661496866 : 200
+[17h 11:46] DESTROY /staffconnexion/670642326661496866 : 200
+[17h 17:40] DESTROY /staffconnexion/670642326661496866 : 200
+[17h 19:44] DESTROY /staffconnexion/670642326661496866 : 200
+[17h 21:30] DESTROY /staffconnexion/670642326661496866 : 200
+[17h 24:4] DESTROY /staffconnexion/670642326661496866 : 200
+[17h 27:47] DESTROY /staffconnexion/670642326661496866 : 200
+[17h 31:38] DESTROY /staffconnexion/670642326661496866 : 200
+[17h 32:8] POST /auth (200)
+[17h 32:11] GET /tickets : 200
+[17h 32:11] GET /giveaways/ : 200
+[17h 32:11] GET /invites : 200
+[17h 32:21] DESTROY /staffconnexion/670642326661496866 : 200
+[17h 34:41] POST /auth (200)
+[17h 34:44] GET /tickets : 200
+[17h 34:44] GET /invites : 200
+[17h 34:44] GET /giveaways/ : 200
+[17h 36:22] POST /auth (200)
+[17h 36:25] GET /tickets : 200
+[17h 36:25] GET /invites : 200
+[17h 36:25] GET /giveaways/ : 200
+[17h 36:41] POST /auth (200)
+[17h 36:44] GET /tickets : 200
+[17h 36:44] GET /invites : 200
+[17h 36:44] GET /giveaways/ : 200
+[17h 37:32] DESTROY /staffconnexion/670642326661496866 : 200
+[17h 37:49] POST /auth (200)
+[17h 37:52] GET /tickets : 200
+[17h 37:52] GET /invites : 200
+[17h 37:52] GET /giveaways/ : 200
+[17h 38:0] DESTROY /staffconnexion/670642326661496866/refuse : 200
+[17h 39:30] DESTROY /staffconnexion/670642326661496866/refuse : 200
+[17h 42:11] DESTROY /staffconnexion/670642326661496866/refuse : 200
+[17h 46:52] DESTROY /staffconnexion/670642326661496866/refuse : 200
+[17h 47:45] DESTROY /staffconnexion/670642326661496866/refuse : 200
+[17h 47:59] DESTROY /staffconnexion/670642326661496866/refuse : 200
+[17h 48:16] DESTROY /staffconnexion/670642326661496866 : 200
+[17h 50:38] POST /auth (200)
+[17h 50:41] GET /tickets : 200
+[17h 50:41] GET /invites : 200
+[17h 50:41] GET /giveaways/ : 200
+[17h 52:3] DESTROY /staffconnexion/670642326661496866 : 200
+[17h 52:40] DESTROY /staffconnexion/670642326661496866/refuse : 200
+[17h 52:50] DESTROY /staffconnexion/670642326661496866 : 200
+[17h 55:46] DESTROY /staffconnexion/670642326661496866 : 200
+[18h 1:50] DESTROY /staffconnexion/670642326661496866 : 200
+[18h 2:4] DESTROY /staffconnexion/670642326661496866/refuse : 200
+[18h 2:29] DESTROY /staffconnexion/670642326661496866 : 200
+[18h 14:42] DESTROY /staffconnexion/670642326661496866 : 200
+[18h 15:15] DESTROY /staffconnexion/670642326661496866/refuse : 200
+[18h 15:25] DESTROY /staffconnexion/670642326661496866 : 200
+[23h 31:22] POST /auth (200)
+[23h 31:25] GET /tickets : 200
+[23h 31:25] GET /invites : 200
+[23h 31:25] GET /giveaways/ : 200
+[23h 32:54] DESTROY /staffconnexion/670642326661496866 : 200
+[23h 33:5] DESTROY /staffconnexion/670642326661496866/refuse : 200
+[23h 33:18] DESTROY /staffconnexion/670642326661496866 : 200
