@@ -1,0 +1,7 @@
+[15h 26:9] POST /auth (200)
+[15h 26:12] GET /tickets : 200
+[15h 26:12] GET /invites : 200
+[15h 26:12] GET /giveaways/ : 200
+[15h 38:54] DESTROY /staffconnexion/670642326661496866 : 200
+[15h 57:23] DESTROY /staffconnexion/670642326661496866 : 200
+[15h 57:40] DESTROY /staffconnexion/670642326661496866 : 200

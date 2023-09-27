@@ -267,7 +267,7 @@
     },
     {
       "name": "mineral",
-      "rootUri": "../../mineral-core",
+      "rootUri": "file:///home/panda/.pub-cache/git/core-0f5458a7b94ead59d0b2193918cbc84ef57eb8c8/",
       "packageUri": "lib/",
       "languageVersion": "2.18"
     },
@@ -285,7 +285,7 @@
     },
     {
       "name": "mineral_invite",
-      "rootUri": "../../InviteMineral",
+      "rootUri": "file:///home/panda/.pub-cache/git/MineralInvite-e1ec45e605d04496b844b24a54c68128d4ffb82b/",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -506,7 +506,7 @@
       "languageVersion": "2.17"
     }
   ],
-  "generated": "2023-07-29T14:05:08.253370Z",
+  "generated": "2023-09-09T20:04:16.403233Z",
   "generator": "pub",
-  "generatorVersion": "3.0.5"
+  "generatorVersion": "3.1.0"
 }

@@ -356,9 +356,11 @@ packages:
   mineral:
     dependency: "direct main"
     description:
-      path: "../mineral-core"
-      relative: true
-    source: path
+      path: "."
+      ref: main
+      resolved-ref: "0f5458a7b94ead59d0b2193918cbc84ef57eb8c8"
+      url: "https://github.com/mineral-dart/core"
+    source: git
     version: "3.1.0"
   mineral_contract:
     dependency: "direct main"
@@ -379,9 +381,11 @@ packages:
   mineral_invite:
     dependency: "direct main"
     description:
-      path: "../InviteMineral"
-      relative: true
-    source: path
+      path: "."
+      ref: main
+      resolved-ref: e1ec45e605d04496b844b24a54c68128d4ffb82b
+      url: "https://github.com/bot-config-dart/MineralInvite"
+    source: git
     version: "1.0.0"
   mineral_ioc:
     dependency: transitive

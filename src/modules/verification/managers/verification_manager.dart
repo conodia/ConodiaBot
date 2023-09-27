@@ -7,7 +7,7 @@ import 'package:mineral/framework.dart';
 import '../../../managers/api/api_http_service.dart';
 import '../entities/verification.dart';
 
-class VerificationManager with  Container {
+class VerificationManager with Container {
   User user;
 
   VerificationManager({ required this.user});

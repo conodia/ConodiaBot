@@ -16,7 +16,7 @@ void main() async  {
   /**
    * Init Mineral
    */
-  MessageService().init();
+  await MessageService().init();
 
   Kernel kernel = Kernel(
       intents: IntentService(all: true),

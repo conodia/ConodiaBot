@@ -10,14 +10,20 @@ environment:
 dependencies:
  intl: ^0.18.0
  mineral:
-  path: ../mineral-core
- mineral_invite:
-  path: ../InviteMineral
+  # path: ../mineral-core
+  git:
+   ref: main
+   url: https://github.com/mineral-dart/core
  path: ^1.8.3
  yaml: ^3.1.1
  html: ^0.15.1
  udp: ^5.0.3
  json_annotation: ^4.8.0
+ mineral_invite:
+  # path: ../InviteMineral
+  git:
+   ref: main
+   url: https://github.com/bot-config-dart/MineralInvite
  mineral_contract: ^1.1.0
 dev_dependencies:
  build_runner: ^2.3.3

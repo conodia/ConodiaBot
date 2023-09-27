@@ -1,0 +1,6 @@
+[0h 39:42] POST /auth (200)
+[0h 39:45] GET /tickets : 200
+[0h 39:46] GET /invites : 200
+[0h 39:46] GET /giveaways/ : 200
+[0h 39:48] GET /link/islink/670642326661496866 : 200
+[0h 39:49] POST /link/create (200)
