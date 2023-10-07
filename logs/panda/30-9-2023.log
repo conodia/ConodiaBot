@@ -1,0 +1,12 @@
+[20h 5:41] POST /auth (200)
+[20h 5:44] GET /tickets : 200
+[20h 5:44] GET /invites : 200
+[20h 5:44] GET /giveaways/ : 200
+[20h 5:44] GET /jobs/670642326661496866 : 500
+[20h 7:12] POST /auth (200)
+[20h 7:15] GET /tickets : 200
+[20h 7:15] GET /invites : 200
+[20h 7:15] GET /giveaways/ : 200
+[20h 7:31] GET /link/islink/670642326661496866 : 200
+[20h 7:31] POST /link/create (200)
+[20h 8:4] GET /jobs/670642326661496866 : 200
