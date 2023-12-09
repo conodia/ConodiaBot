@@ -14,7 +14,6 @@ class EndGiveaway extends MineralSubcommand<GuildCommandInteraction> with State,
 
   Future<void> handle (CommandInteraction interaction) async {
     final id = interaction.getValue<String>("id");
-
     final messages = container.use<MessageEntity>().giveaway;
     GiveawayManager? giveaway = giveawaysCache.cache.get(id);
 

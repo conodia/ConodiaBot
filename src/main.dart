@@ -1,6 +1,7 @@
 import 'package:mineral/core.dart';
+import 'package:mineral/core/events.dart';
 import 'package:mineral/core/services.dart';
-import 'package:mineral/src/internal/services/intent_service.dart';
+import 'package:mineral/framework.dart';
 
 import 'events/ready.dart';
 import 'messages/message_service.dart';
@@ -30,7 +31,14 @@ void main() async  {
     events: EventService([
       Ready(),
       ReadyWebsocket(),
+      Test(),
     ]),
   );
   await kernel.init();
+}
+
+class Test extends MineralEvent<MessageCreateEvent> {
+  Future<void> handle(event) async {
+    print(event.message.content);
+  }
 }

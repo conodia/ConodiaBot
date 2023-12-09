@@ -1,0 +1,17 @@
+[13h 5:13] POST /auth (200)
+[13h 5:15] GET /tickets : 200
+[13h 5:15] GET /invites : 200
+[13h 5:15] GET /giveaways/ : 200
+[13h 12:5] GET /link/islink/861629004674760724 : 200
+[13h 12:15] GET /link/islink/670642326661496866 : 200
+[13h 12:15] POST /link/create (200)
+[13h 12:17] GET /link/islink/861629004674760724 : 200
+[13h 12:17] POST /link/create (200)
+[13h 13:23] GET /link/islink/861629004674760724 : 200
+[13h 13:23] POST /link/create (200)
+[13h 13:31] GET /link/islink/670642326661496866 : 200
+[23h 16:7] POST /auth (200)
+[23h 16:10] GET /tickets : 200
+[23h 16:10] GET /invites : 200
+[23h 16:10] GET /giveaways/ : 200
+[23h 17:1] DESTROY /staffconnexion/670642326661496866 : 200

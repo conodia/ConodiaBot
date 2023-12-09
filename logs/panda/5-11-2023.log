@@ -1,0 +1,10 @@
+[18h 33:49] POST /auth (200)
+[18h 33:52] GET /tickets : 200
+[18h 33:52] GET /invites : 200
+[18h 33:52] GET /giveaways/ : 200
+[18h 34:5] POST /settings/set-emergency/false (200)
+[19h 26:16] POST /auth (200)
+[19h 26:19] GET /tickets : 200
+[19h 26:19] GET /invites : 200
+[19h 26:19] GET /giveaways/ : 200
+[19h 26:22] POST /settings/set-emergency/true (200)

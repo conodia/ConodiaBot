@@ -1,0 +1,50 @@
+[0h 8:3] POST /auth (200)
+[0h 8:6] GET /tickets : 200
+[0h 8:6] GET /invites : 200
+[0h 8:6] GET /giveaways/ : 200
+[0h 8:50] POST /auth (200)
+[0h 8:52] GET /tickets : 200
+[0h 8:52] GET /giveaways/ : 200
+[0h 8:52] GET /invites : 200
+[0h 12:2] POST /auth (200)
+[0h 12:15] POST /auth (200)
+[0h 12:18] GET /tickets : 200
+[0h 12:18] GET /invites : 200
+[0h 12:18] GET /giveaways/ : 200
+[0h 12:24] POST /set-emergency/true (404)
+[0h 12:49] POST /auth (200)
+[0h 12:52] GET /tickets : 200
+[0h 12:52] GET /invites : 200
+[0h 12:52] GET /giveaways/ : 200
+[0h 12:58] POST /settings/set-emergency/true (200)
+[0h 13:25] POST /settings/set-emergency/false (200)
+[0h 13:25] POST /settings/set-emergency/false (200)
+[0h 14:0] POST /settings/set-emergency/false (200)
+[0h 14:57] POST /settings/set-emergency/true (200)
+[0h 14:57] POST /settings/set-emergency/true (200)
+[0h 14:57] POST /settings/set-emergency/true (200)
+[0h 14:57] POST /settings/set-emergency/true (200)
+[0h 16:50] POST /settings/set-emergency/true (200)
+[0h 17:27] POST /settings/set-emergency/true (200)
+[0h 18:39] POST /settings/set-emergency/true (200)
+[0h 19:32] POST /settings/set-emergency/false (200)
+[0h 19:32] POST /settings/set-emergency/false (200)
+[0h 19:32] POST /settings/set-emergency/false (200)
+[0h 19:32] POST /settings/set-emergency/false (200)
+[0h 19:32] POST /settings/set-emergency/false (200)
+[0h 20:21] POST /auth (200)
+[0h 20:24] GET /tickets : 200
+[0h 20:24] GET /invites : 200
+[0h 20:24] GET /giveaways/ : 200
+[0h 20:27] POST /settings/set-emergency/false (200)
+[0h 20:33] POST /settings/set-emergency/true (200)
+[0h 21:6] POST /settings/set-emergency/true (200)
+[0h 22:18] POST /settings/set-emergency/true (200)
+[0h 23:16] POST /settings/set-emergency/false (200)
+[0h 23:16] POST /settings/set-emergency/false (200)
+[0h 25:1] POST /settings/set-emergency/true (200)
+[19h 10:9] POST /auth (200)
+[19h 10:12] GET /tickets : 200
+[19h 10:12] GET /invites : 200
+[19h 10:12] GET /giveaways/ : 200
+[19h 11:27] POST /settings/set-emergency/true (200)

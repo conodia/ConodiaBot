@@ -1,0 +1,6 @@
+[19h 35:59] POST /auth (404)
+[19h 36:27] POST /auth (200)
+[19h 36:29] GET /tickets : 200
+[19h 36:30] GET /invites : 200
+[19h 36:30] GET /giveaways/ : 200
+[19h 36:33] POST /settings/set-emergency/false (200)

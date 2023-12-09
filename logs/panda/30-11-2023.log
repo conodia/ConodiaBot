@@ -1,0 +1,4 @@
+[19h 24:49] POST /auth (200)
+[19h 24:51] GET /tickets : 200
+[19h 24:52] GET /invites : 200
+[19h 24:52] GET /giveaways/ : 200

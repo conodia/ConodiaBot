@@ -1,0 +1,9 @@
+[13h 30:55] POST /auth (200)
+[13h 30:58] GET /tickets : 200
+[13h 30:58] GET /invites : 200
+[13h 30:58] GET /giveaways/ : 200
+[13h 33:33] GET /link/islink/670642326661496866 : 200
+[13h 33:33] POST /link/create (200)
+[13h 33:57] POST /settings/set-emergency/true (200)
+[13h 34:8] POST /settings/set-emergency/false (200)
+[13h 34:43] DESTROY /staffconnexion/670642326661496866 : 200

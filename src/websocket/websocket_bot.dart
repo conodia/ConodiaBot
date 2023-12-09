@@ -83,7 +83,8 @@ enum WCode {
   AUTH(0),
   HEARTBEAT(1),
   VERIFIED_USER(3),
-  STAFF_CONNEXION(4);
+  STAFF_CONNEXION(4),
+  EMERGENCY_REQUEST(8);
 
   final int value;
   const WCode(this.value);

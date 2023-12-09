@@ -1,5 +1,6 @@
 import 'package:mineral_contract/mineral_contract.dart';
 
+import 'commands/set_emergency.dart';
 import 'commands/setup_verification.dart';
 import 'commands/unlink.dart';
 import 'events/button_staff_connexion_interaction.dart';
@@ -14,6 +15,7 @@ class VerificationModule extends MineralPackageContract {
     commands.register([
       SetupVerification(),
       Unlink(),
+      SetEmergency(),
     ]);
     events.register([
       ButtonVerifyInteraction(),
